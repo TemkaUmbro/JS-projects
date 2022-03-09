@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Currency сonverter</title>
+</head>
+<body>
+    <div class="main">
+        <h1>Конвертер валют</h1>
+        <div class="data_picker">
+            <input type="date" name="" id="date">
+        </div>
+        <div class="convert_block_item">
+            <input type="number" id="input" placeholder="Enter value..."/>
+            <select id="select">
+                <option value="BYN">Br BYN — Белорусский рубль</option>
+                <option value="USD">$ USD — Доллар США</option>
+                <option value="EUR">€ EUR — Евро</option>
+                <option value="CNY">¥ CNY — Китайский юань</option>
+                <option value="RUB">₽ RUB — Российский рубль</option>
+            </select>
+        </div>
+        <div class="convert_block_item">
+            <div class="block" id="BYN">
+                0.00 Br BYN
+            </div>
+            <div class="block" id="USD">
+                0.00 $ USD
+            </div>
+            <div class="block" id="EUR">
+                0.00 € EUR
+            </div>
+            <div class="block" id="CNY">
+                0.00 ¥ CNY
+            </div>
+            <div class="block" id="RUB">
+                0.00 ₽ RUB
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
